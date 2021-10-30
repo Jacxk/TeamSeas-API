@@ -1,11 +1,12 @@
 {
   "name": "teamseas-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "TeamSeas.org unofficial api to get the top, recent, and total donations.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "compile": "tsc"
   },
   "keywords": [
     "teamtrees",
@@ -21,11 +22,11 @@
   "author": "Jacxk",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.5"
   },
   "devDependencies": {
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.4"
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.10"
   },
   "repository": {
     "type": "git",
