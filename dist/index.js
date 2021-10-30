@@ -79,7 +79,7 @@ class TeamSeas {
         return __awaiter(this, void 0, void 0, function* () {
             yield this.assert();
             const boardData = yield this.getBoardData();
-            return boardData.teams_most_donation;
+            return boardData.teams_most_donations;
         });
     }
     getBody() {

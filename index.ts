@@ -78,7 +78,7 @@ export class TeamSeas {
         
         const boardData: LeaderBoard = await this.getBoardData();
 
-        return boardData.teams_most_donation;
+        return boardData.teams_most_donations;
     }
 
     private async getBody(): Promise<TeamSeasData> {

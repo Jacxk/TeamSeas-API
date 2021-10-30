@@ -1,6 +1,6 @@
 {
   "name": "teamseas-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TeamSeas.org unofficial api to get the top, recent, and total donations.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

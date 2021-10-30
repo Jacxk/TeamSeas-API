@@ -14,7 +14,7 @@ export interface LeaderBoard {
     recent: Array<Donation>;
     most: Array<Donation>;
     teams_alpha: Array<Team>;
-    teams_most_donation: Array<Team>;
+    teams_most_donations: Array<Team>;
 }
 export interface Donation {
     ff: number;
