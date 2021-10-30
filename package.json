@@ -1,0 +1,38 @@
+{
+  "name": "teamseas-api",
+  "version": "0.0.1",
+  "description": "TeamSeas.org unofficial api to get the top, recent, and total donations.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "teamtrees",
+    "#teamtrees",
+    "treelon",
+    "teamtrees-api",
+    "teamtrees.org",
+    "teamseas",
+    "#teamseas",
+    "teamseas-api",
+    "teamseas.org"
+  ],
+  "author": "Jacxk",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacxk/TeamSeas-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jacxk/TeamSeas-API/issues"
+  },
+  "homepage": "https://teamseas.org/"
+}
