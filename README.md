@@ -28,7 +28,7 @@ You can disable it but I don't recommend it.
 ### Initialize:
 ```js
 const {TeamSeas} = require('teamseas-api');
-const eamSeas = new TeamSeas(/* options */);
+const teamSeas = new TeamSeas(/* options */);
 ```
 
 ### Methods:
